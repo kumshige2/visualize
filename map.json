@@ -1,0 +1,460 @@
+{
+    "mappings" : {
+      "OXi(ppm)" : {
+        "properties" : {
+          "TimeStamp" : {
+            "type":"date",
+            "format":"YYYYMMdd-HH"
+          },
+          "局種別" : {
+            "type" : "string"
+          },
+          "市町村名" : {
+            "type" : "string"
+          },
+          "年" : {
+            "type" : "string"
+          },
+          "日" : {
+            "type" : "string"
+          },
+          "時" : {
+            "type" : "string"
+          },
+          "月" : {
+            "type" : "string"
+          },
+          "測定値" : {
+            "type" : "float"
+          },
+          "測定局名称" : {
+            "type" : "string"
+          },
+          "測定項目名称" : {
+            "type" : "string"
+          },
+          "管理主体" : {
+            "type" : "string"
+          }
+        }
+      },
+      "STB(A～G)" : {
+        "properties" : {
+          "TimeStamp" : {
+            "type":"date",
+            "format":"YYYYMMdd-HH"
+          },
+          "局種別" : {
+            "type" : "string"
+          },
+          "市町村名" : {
+            "type" : "string"
+          },
+          "年" : {
+            "type" : "string"
+          },
+          "日" : {
+            "type" : "string"
+          },
+          "時" : {
+            "type" : "string"
+          },
+          "月" : {
+            "type" : "string"
+          },
+          "測定値" : {
+            "type" : "float"
+          },
+          "測定局名称" : {
+            "type" : "string"
+          },
+          "測定項目名称" : {
+            "type" : "string"
+          },
+          "管理主体" : {
+            "type" : "string"
+          }
+        }
+      },
+      "NO(ppm)" : {
+        "properties" : {
+          "TimeStamp" : {
+            "type":"date",
+            "format":"YYYYMMdd-HH"
+          },
+          "局種別" : {
+            "type" : "string"
+          },
+          "市町村名" : {
+            "type" : "string"
+          },
+          "年" : {
+            "type" : "string"
+          },
+          "日" : {
+            "type" : "string"
+          },
+          "時" : {
+            "type" : "string"
+          },
+          "月" : {
+            "type" : "string"
+          },
+          "測定値" : {
+            "type" : "float"
+          },
+          "測定局名称" : {
+            "type" : "string"
+          },
+          "測定項目名称" : {
+            "type" : "string"
+          },
+          "管理主体" : {
+            "type" : "string"
+          }
+        }
+      },
+      "WS(m/s)" : {
+        "properties" : {
+          "TimeStamp" : {
+            "type":"date",
+            "format":"YYYYMMdd-HH"
+          },
+          "局種別" : {
+            "type" : "string"
+          },
+          "市町村名" : {
+            "type" : "string"
+          },
+          "年" : {
+            "type" : "string"
+          },
+          "日" : {
+            "type" : "string"
+          },
+          "時" : {
+            "type" : "string"
+          },
+          "月" : {
+            "type" : "string"
+          },
+          "測定値" : {
+            "type" : "float"
+          },
+          "測定局名称" : {
+            "type" : "string"
+          },
+          "測定項目名称" : {
+            "type" : "string"
+          },
+          "管理主体" : {
+            "type" : "string"
+          }
+        }
+      },
+      "NO2(ppm)" : {
+        "properties" : {
+          "TimeStamp" : {
+            "type":"date",
+            "format":"YYYYMMdd-HH"
+          },
+          "局種別" : {
+            "type" : "string"
+          },
+          "市町村名" : {
+            "type" : "string"
+          },
+          "年" : {
+            "type" : "string"
+          },
+          "日" : {
+            "type" : "string"
+          },
+          "時" : {
+            "type" : "string"
+          },
+          "月" : {
+            "type" : "string"
+          },
+          "測定値" : {
+            "type" : "float"
+          },
+          "測定局名称" : {
+            "type" : "string"
+          },
+          "測定項目名称" : {
+            "type" : "string"
+          },
+          "管理主体" : {
+            "type" : "string"
+          }
+        }
+      },
+      "PM2.5(μg/m3)" : {
+        "properties" : {
+          "TimeStamp" : {
+            "type":"date",
+            "format":"YYYYMMdd-HH"
+          },
+          "局種別" : {
+            "type" : "string"
+          },
+          "市町村名" : {
+            "type" : "string"
+          },
+          "年" : {
+            "type" : "string"
+          },
+          "日" : {
+            "type" : "string"
+          },
+          "時" : {
+            "type" : "string"
+          },
+          "月" : {
+            "type" : "string"
+          },
+          "測定値" : {
+            "type" : "float"
+          },
+          "測定局名称" : {
+            "type" : "string"
+          },
+          "測定項目名称" : {
+            "type" : "string"
+          },
+          "管理主体" : {
+            "type" : "string"
+          }
+        }
+      },
+      "RAD(MJ/m2)" : {
+        "properties" : {
+          "TimeStamp" : {
+            "type":"date",
+            "format":"YYYYMMdd-HH"
+          },
+          "局種別" : {
+            "type" : "string"
+          },
+          "市町村名" : {
+            "type" : "string"
+          },
+          "年" : {
+            "type" : "string"
+          },
+          "日" : {
+            "type" : "string"
+          },
+          "時" : {
+            "type" : "string"
+          },
+          "月" : {
+            "type" : "string"
+          },
+          "測定値" : {
+            "type" : "float"
+          },
+          "測定局名称" : {
+            "type" : "string"
+          },
+          "測定項目名称" : {
+            "type" : "string"
+          },
+          "管理主体" : {
+            "type" : "string"
+          }
+        }
+      },
+      "SPM(μg/m3)" : {
+        "properties" : {
+          "TimeStamp" : {
+            "type":"date",
+            "format":"YYYYMMdd-HH"
+          },
+          "局種別" : {
+            "type" : "string"
+          },
+          "市町村名" : {
+            "type" : "string"
+          },
+          "年" : {
+            "type" : "string"
+          },
+          "日" : {
+            "type" : "string"
+          },
+          "時" : {
+            "type" : "string"
+          },
+          "月" : {
+            "type" : "string"
+          },
+          "測定値" : {
+            "type" : "float"
+          },
+          "測定局名称" : {
+            "type" : "string"
+          },
+          "測定項目名称" : {
+            "type" : "string"
+          },
+          "管理主体" : {
+            "type" : "string"
+          }
+        }
+      },
+      "S-RAD(MJ/m2)" : {
+        "properties" : {
+          "TimeStamp" : {
+            "type":"date",
+            "format":"YYYYMMdd-HH"
+          },
+          "局種別" : {
+            "type" : "string"
+          },
+          "市町村名" : {
+            "type" : "string"
+          },
+          "年" : {
+            "type" : "string"
+          },
+          "日" : {
+            "type" : "string"
+          },
+          "時" : {
+            "type" : "string"
+          },
+          "月" : {
+            "type" : "string"
+          },
+          "測定値" : {
+            "type" : "float"
+          },
+          "測定局名称" : {
+            "type" : "string"
+          },
+          "測定項目名称" : {
+            "type" : "string"
+          },
+          "管理主体" : {
+            "type" : "string"
+          }
+        }
+      },
+      "OX(ppm)" : {
+        "properties" : {
+          "TimeStamp" : {
+            "type":"date",
+            "format":"YYYYMMdd-HH"
+          },
+          "局種別" : {
+            "type" : "string"
+          },
+          "市町村名" : {
+            "type" : "string"
+          },
+          "年" : {
+            "type" : "string"
+          },
+          "日" : {
+            "type" : "string"
+          },
+          "時" : {
+            "type" : "string"
+          },
+          "月" : {
+            "type" : "string"
+          },
+          "測定値" : {
+            "type" : "float"
+          },
+          "測定局名称" : {
+            "type" : "string"
+          },
+          "測定項目名称" : {
+            "type" : "string"
+          },
+          "管理主体" : {
+            "type" : "string"
+          }
+        }
+      },
+      "WD(方位)" : {
+        "properties" : {
+          "TimeStamp" : {
+            "type":"date",
+            "format":"YYYYMMdd-HH"
+          },
+          "局種別" : {
+            "type" : "string"
+          },
+          "市町村名" : {
+            "type" : "string"
+          },
+          "年" : {
+            "type" : "string"
+          },
+          "日" : {
+            "type" : "string"
+          },
+          "時" : {
+            "type" : "string"
+          },
+          "月" : {
+            "type" : "string"
+          },
+          "測定値" : {
+            "type" : "float"
+          },
+          "測定局名称" : {
+            "type" : "string"
+          },
+          "測定項目名称" : {
+            "type" : "string"
+          },
+          "管理主体" : {
+            "type" : "string"
+          }
+        }
+      },
+      "NOX(ppm)" : {
+        "properties" : {
+          "TimeStamp" : {
+            "type":"date",
+            "format":"YYYYMMdd-HH"
+          },
+          "局種別" : {
+            "type" : "string"
+          },
+          "市町村名" : {
+            "type" : "string"
+          },
+          "年" : {
+            "type" : "string"
+          },
+          "日" : {
+            "type" : "string"
+          },
+          "時" : {
+            "type" : "string"
+          },
+          "月" : {
+            "type" : "string"
+          },
+          "測定値" : {
+            "type" : "float"
+          },
+          "測定局名称" : {
+            "type" : "string"
+          },
+          "測定項目名称" : {
+            "type" : "string"
+          },
+          "管理主体" : {
+            "type" : "string"
+          }
+        }
+      }
+    }
+}
